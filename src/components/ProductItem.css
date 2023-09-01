@@ -1,0 +1,21 @@
+figure.pic {
+  width: 288px;
+  margin-top: 32px; padding: 16px;
+  box-sizing: border-box;
+  border: 1px #888 solid;
+}
+figure.pic>img {
+  width: 256px;
+  margin-bottom: 16px;
+}
+figure.pic>figcaption {
+  color: #666;
+  text-align: justify; 
+}
+figure.pic dl>dt {
+  margin-bottom: 8px;
+  font-size: 24px; font-weight: 900;
+}
+figure.pic dl>dt a {
+  color: #666;
+}

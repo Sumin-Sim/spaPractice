@@ -1,0 +1,33 @@
+div#product {
+  width: 960px;
+  margin: 0 auto;
+}
+div#product>h2 {
+  margin-bottom: 32px;
+  font-size: 24px; font-weight: 900;
+}
+div#product>form {
+  width: 100%;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+}
+div#product>form>input {
+  width: 90%; height: 32px;
+  box-sizing: border-box;
+  border: none;
+  text-indent: 8px;
+  outline-style: none;
+}
+div#product>form>button {
+  width: 10%; height: 32px;
+  box-sizing: border-box;
+  border: none;
+  background-color: #292929;
+  color: #fff;
+  cursor: pointer;
+}
+div#product>div#container>div {
+  display: flex;
+  flex-wrap: wrap; justify-content: space-between; align-items: center;
+}

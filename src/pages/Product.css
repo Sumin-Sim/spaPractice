@@ -1,0 +1,32 @@
+div#productItem {
+  width: 960px;
+  margin: 0 auto; padding: 24px;
+  box-sizing: border-box;
+  background-color: #fff;
+  text-align: justify;
+}
+div#productItem>h2 {
+  margin-bottom: 16px;
+  font-size: 32px;
+}
+div#productItem>p>button {
+  margin-bottom:8px; padding: 8px 24px;
+  border: none;
+  background-color: #faa629;
+  color: #fff;
+  cursor: pointer;
+}
+div.topic {
+  width: 880px;
+  margin: 0 auto;
+}
+div.topic>dl {
+  margin-top: 24px; padding: 24px;
+  box-sizing: border-box;
+  background-color: #fff;
+  text-align: justify;
+}
+div.topic>dl>dt {
+  margin-bottom: 8px;
+  font-size: 24px;
+}
